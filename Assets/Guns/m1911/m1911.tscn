@@ -3,9 +3,6 @@
 [ext_resource path="res://Assets/Guns/m1911/m1911.cs" type="Script" id=1]
 [ext_resource path="res://Assets/Guns/m1911/1911.png" type="Texture" id=2]
 
-
-
-
 [node name="Gun" type="Node2D"]
 script = ExtResource( 1 )
 

@@ -3,3 +3,4 @@
 /home/ian/Documents/Games/.mono/temp/bin/Tools/Sprite Test.pdb
 /home/ian/Documents/Games/.mono/temp/obj/Tools/Sprite Test.dll
 /home/ian/Documents/Games/.mono/temp/obj/Tools/Sprite Test.pdb
+/home/ian/Documents/Games/.mono/temp/obj/Tools/Sprite Test.csproj.CoreCompileInputs.cache

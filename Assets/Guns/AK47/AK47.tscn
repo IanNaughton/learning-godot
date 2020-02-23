@@ -10,4 +10,4 @@ script = ExtResource( 1 )
 texture = ExtResource( 2 )
 
 [node name="Muzzle" type="Node2D" parent="."]
-position = Vector2( 40, -8 )
+position = Vector2( 46.3271, -7.45751 )

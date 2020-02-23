@@ -40,14 +40,18 @@ tile_data = PoolIntArray( 196613, 0, 0, 196614, 0, 0, 196615, 0, 0, 196616, 0, 0
 position = Vector2( 247, 108 )
 scale = Vector2( 0.600001, 0.679999 )
 script = ExtResource( 2 )
+GRAVITY = 2000
+MOVEMENT_SPEED = 500
+JUMP_HEIGHT = 1000
+
+[node name="Sprite" type="Sprite" parent="Player"]
+texture = ExtResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 shape = SubResource( 3 )
 
-[node name="VisibleAssets" type="Node2D" parent="Player"]
+[node name="RightGun" type="Node2D" parent="Player"]
+position = Vector2( 71.6666, 0 )
 
-[node name="Sprite" type="Sprite" parent="Player/VisibleAssets"]
-texture = ExtResource( 3 )
-
-[node name="Gun" type="Node2D" parent="Player"]
-position = Vector2( 48.3333, 0 )
+[node name="LeftGun" type="Node2D" parent="Player"]
+position = Vector2( -76.6665, 0 )
